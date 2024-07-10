@@ -1,0 +1,430 @@
+.cust-main {
+  display: flex;
+  padding: 1em;
+}
+.cust-img {
+  width: 60%;
+}
+.cust-img img {
+  width: 70%;
+  border-radius: 5px;
+}
+.cust-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cust-coint {
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px rgba(41, 41, 44, 0.2);
+  padding-bottom: 0.5em;
+}
+
+.textarea {
+  width: 98%;
+  height: 100%;
+  margin: 5px;
+}
+.textarea textarea {
+  width: 100%;
+  height: 55dvh;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  overflow: auto;
+  resize: none;
+}
+.upload {
+  background-color: var(--buttion--colour);
+  border-radius: 15px;
+  width: 98%;
+  margin-left: 5px;
+}
+.upload-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* button style */
+.cust-btn button {
+  color: black;
+  background: none;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: 1px solid black; /* Add a border to make it more visible */
+  cursor: pointer; /* Add cursor pointer */
+}
+.cust-btn button:hover {
+  background-color: var(--buttion--colour);
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.key-buttons {
+  display: flex;
+  flex-wrap: wrap; /* Change to flex to properly align items */
+  gap: 20px;
+  width: 100%;
+}
+
+.key-buttons .btn-key {
+  width: 20%;
+  height: 100%;
+  background: transparent;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 1em;
+  cursor: pointer; /* Add cursor pointer */
+  border: 1px solid black; /* Add a border to make it more visible */
+}
+#show-que-btn {
+  background: transparent;
+  /* padding: 0.2em; */
+  border-radius: 5px;
+  border: none;
+}
+.key-buttons .btn-key:hover {
+  background-color: var(--buttion--colour);
+  color: white; /* Change text color on hover */
+}
+
+.key-buttons .btn-key.active-btn {
+  background-color: var(
+    --buttion--colour
+  ); /* Change background color when active */
+  color: white; /* Change text color when active */
+}
+
+.level-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  gap: 10px;
+}
+.level-input label {
+  font-size: 1.2em;
+}
+.up-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.inp-up {
+  width: 30%;
+  background-color: var(--buttion--colour);
+  color: white;
+  border-radius: 5px;
+}
+.up-sub {
+  width: 70%;
+}
+.up-sub button {
+  width: 100%;
+  background-color: var(--buttion--colour);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 15px;
+  border: none;
+}
+
+/* question page */
+
+.cust-int-main {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.con-que-an {
+  width: 95%;
+  height: 68dvh;
+  resize: none;
+  outline: none;
+  font-size: 1.2rem;
+  overflow: auto;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+}
+.question-answer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.que-ans {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: start;
+  align-items: end;
+}
+#que {
+  display: flex;
+  justify-content: end;
+  text-align: end;
+  align-items: end;
+  background-color: rgba(212, 199, 185, 0.3);
+  padding: 0.8em;
+  border-radius: 10px;
+  width: fit-content;
+}
+.question-re {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+#question-ans {
+  background-color: rgba(212, 199, 185, 0.3);
+  padding: 0.8em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.cust-container {
+  height: 10%;
+  margin: 2em;
+  margin-left: 10vw;
+  background-color: white;
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  border-radius: 10px;
+  padding: 0.5em;
+  position: relative;
+}
+.cust-container-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.cust-mic-icons {
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
+.mic-listing {
+  position: absolute;
+  top: -2em;
+}
+#text-area-cust-data {
+  width: 43vw;
+  height: 3em;
+  resize: none;
+  font-size: 1.1rem;
+  overflow: auto;
+  border: none;
+  outline: none;
+  overflow-x: none;
+}
+.question-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: start;
+  align-items: end;
+}
+#question {
+  display: flex;
+  justify-content: end;
+  text-align: end;
+  align-items: end;
+  background-color: rgba(212, 199, 185, 0.3);
+  padding: 0.8em;
+  border-radius: 10px;
+  width: fit-content;
+}
+#play-icon {
+  margin-left: 1em;
+}
+
+#question-answer {
+  background-color: rgba(212, 199, 185, 0.3);
+  padding: 0.8em;
+  border-radius: 10px;
+}
+#submit-cust {
+  padding: 0.5em;
+  background: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+#submit-cust:hover {
+  background-color: rgb(29, 63, 215);
+  color: aliceblue;
+}
+
+.btn-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 10px;
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .cust-main {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 0px;
+  }
+  .cust-img {
+    width: 100%;
+  }
+  .cust-coint {
+    width: 100%;
+    height: 40%;
+  }
+  .cust-img img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .cust-container {
+    width: 70%;
+    margin: 1;
+    margin-left: 2vw;
+  }
+  .key-buttons .btn-key {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cust-main {
+    display: flex;
+    padding: 1em;
+    gap: 10px;
+  }
+  .cust-img {
+    width: 100%;
+  }
+  .cust-img img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .cust-coint {
+    width: 90%;
+    height: 100%;
+  }
+  .level-input {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+  }
+  .level-input label {
+    font-size: 0.8em;
+  }
+  .level-input input {
+    width: 15%;
+  }
+  .file-name {
+    font-size: 0.5rem;
+  }
+  .upload-label {
+    display: flex;
+    flex-direction: column;
+  }
+  .upload-label p {
+    font-size: 0.5rem;
+  }
+  .cust-btn button {
+    color: black;
+    background: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  .cust-btn button:hover {
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  .key-buttons {
+    display: flex; /* Change to flex to properly align items */
+    gap: 20px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 530px) {
+  .cust-container {
+    width: 80%;
+    margin: 1;
+    margin-left: 2vw;
+  }
+}
+@media (max-width: 425px) {
+  .cust-container {
+    width: 80%;
+    margin: 1;
+    margin-left: 2vw;
+  }
+  .cust-main {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 20px;
+  }
+  .cust-img {
+    width: 100%;
+  }
+  .cust-img img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .cust-coint {
+    width: 100%;
+    height: 100%;
+  }
+  .level-input {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+  }
+  .level-input label {
+    font-size: 0.8em;
+  }
+  .level-input input {
+    width: 15%;
+  }
+  .file-name {
+    font-size: 0.5rem;
+  }
+  .upload-label {
+    display: flex;
+    flex-direction: column;
+  }
+  .upload-label p {
+    font-size: 0.5rem;
+  }
+  .cust-btn button {
+    color: black;
+    background: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  .cust-btn button:hover {
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  #text-area-cust-data {
+    width: 80%;
+  }
+}

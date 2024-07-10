@@ -1,0 +1,44 @@
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.nav-logo span {
+  color: red;
+}
+.nav-About {
+  margin-right: 3em;
+  color: white;
+}
+.nav-About a {
+  color: white;
+}
+.nav-About ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-About li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.nav-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
